@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Vendas de Pizzas</title>
+</head>
+<body>
+    <div class="container">
+<header>
+    <ul>
+        <li><h1>Parelheiros</h1></li>
+        <li><h2>Vendas de Pizzas</h2></li>
+    </ul>
+</header>
+
+<section>
+    <form>
+        <h3>Selecione a pizza vendida</h3>
+        <ul><li><input type="radio" id="mussarela" name="pizzas"><label for="mussarela"> Mussarela </label></li>
+            <li><input type="radio" id="mista" name="pizzas"> <label for="mista"> Mista </label></li>
+            <li><input type="radio" id="calabresa" name="pizzas"> <label for="calabresa"> Calabresa </label></li>
+            <li><input type="radio" id="calabresa" name="pizzas"> <label for="calabresa"> Calabacon </label></li>
+            <li><input type="radio" id="calabresa" name="pizzas"> <label for="calabresa"> Bacon </label></li>
+            <li><input type="radio" id="calabresa" name="pizzas"> <label for="calabresa"> Calamussa </label></li>
+            <li><input type="radio" id="calabresa" name="pizzas"> <label for="calabresa"> Carne Seca </label></li>
+            <li><input type="radio" id="calabresa" name="pizzas"> <label for="calabresa"> Frango C/ Catupiry </label></li>
+            <li><input type="radio" id="calabresa" name="pizzas"> <label for="calabresa"> Brigadeiro </label></li>
+            <li><input type="radio" id="calabresa" name="pizzas"> <label for="calabresa"> M&M's </label></li>
+        </ul>
+    </form>
+</section>
+
+<section>
+    <button id="vendas">Adicionar</button>
+    <button id="estornar">Retirar</button>
+</section>
+
+<section id="table">
+    <table>
+<tr>
+   
+    <th>Sabores</th>
+    <th>Quantidade</th>
+    <th>Valor</th>
+</tr>
+<tr>
+    <td>Mussarela</td>
+    <td id="resultadoMussarela">0</td>
+    <td id="vendaMussarela">0</td>
+</tr>
+<tr>
+    <td>Mista</td>
+    <td id="resultadoMista">0</td>
+    <td id="vendaMista">0</td>
+</tr>
+<tr>
+    <td>Calabresa</td>
+    <td id="resultadoCalabresa">0</td>
+    <td id="vendaCalabresa">0</td>
+</tr>
+    </table>
+</section>
+
+<section>
+    <button id="valorTotal">Finalizar Pedido</button>
+    <button id="zerar">Zerar</button>
+</section>
+
+<section>
+<h1>Valor total do Pedido: <span id="pedido"></span></h1>
+</section>
+</div>
+
+<!-- Gerar um Excel com os dados do pedido -->
+<section>
+    <button id="export">Planilha</button>
+</section>
+
+    <script src="/assets/tableToExcel.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>

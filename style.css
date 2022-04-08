@@ -1,0 +1,60 @@
+body{
+    background: url(assets/img/back.jpg) no-repeat;
+    background-size: cover;
+    margin:auto;
+    width:50%;
+    text-align: center;
+}
+h3{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
+}
+header{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+header ul li{
+    list-style: none;
+}
+section form ul li{
+    list-style: none;
+    padding-right: 15px;
+    display: inline;
+}
+section form ul li label{
+    font-size: 26px;
+    font-weight: 900;
+}
+section{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+
+section button{
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 5px;
+    padding-right: 50px;
+    text-align: center;
+}
+.container{
+    background-color: #f11b26;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-top: 10px;
+    color: white;
+}
