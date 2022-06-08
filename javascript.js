@@ -218,16 +218,7 @@ function estornar(e)
 
 function total(e)
 {
-    total 
-    = (somaMussarela + vendaMussarela) - somaMussarela
-    + (vendaMista + somaMista) - somaMista 
-    + (vendaCalabresa + somaCalabresa) - somaCalabresa 
-    + (vendaCalabacon + somaCalabacon) - somaCalabacon
-    + (vendaCalamussa + somaCalamussa) - somaCalamussa 
-    + (vendaCarneSeca + somaCarneSeca) - somaCarneSeca 
-    + (vendaFrangoCatupiry + somaFrangoCatupiry) - somaFrangoCatupiry
-    + (vendaBrigadeiro + somaBrigadeiro) 
-    + (vendaMm + somaMm) - somaMm;
+    total = (somaMussarela + vendaMussarela) - somaMussarela + (vendaMista + somaMista) - somaMista + (vendaCalabresa + somaCalabresa) - somaCalabresa + (vendaCalabacon + somaCalabacon) - somaCalabacon + (vendaCalamussa + somaCalamussa) - somaCalamussa + (vendaCarneSeca + somaCarneSeca) - somaCarneSeca + (vendaFrangoCatupiry + somaFrangoCatupiry) - somaFrangoCatupiry + (vendaBrigadeiro + somaBrigadeiro) - somaBrigadeiro + (vendaMm + somaMm) - somaMm;
 
     document.getElementById('pedido').innerHTML = total.toFixed(2);
 }

@@ -13,6 +13,7 @@ h3{
     text-shadow: 2px 2px #000;
 }
 header{
+    margin: 0px;
     font-size: 22px;
     display: flex;
     justify-content: center;
@@ -25,13 +26,13 @@ header ul li{
 }
 section form ul li{
     list-style: none;
+    text-align: justify;
 }
 section form ul li label{
     font-size: 22px;
     font-weight: 900;
 }
 section{
-    margin-top: 1%;
     display: flex;
     justify-content: center;
     font-size: medium;
@@ -39,6 +40,7 @@ section{
 
 section button{
     margin: 5px;
+    cursor: pointer;
     font-size: 20px;
     border-radius: 10px;
     background: #e2111b88;
@@ -52,15 +54,14 @@ table, th, td {
     padding-right: 50px;
     text-align: center;
 }
-
-#cardapio{
-    display:inline;
-    text-align:justify;
-}
-
 .container{
     background-color: #d7622cd9;
     border: 1px solid black;
     border-radius: 25px;
-    margin-top: 10px;
+    margin-top: 5px;
+}
+
+#export{
+    background-color: rgb(51, 194, 15);
+    font-weight: 700;
 }
